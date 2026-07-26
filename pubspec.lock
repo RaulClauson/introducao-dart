@@ -113,6 +113,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.3"
+  http:
+    dependency: "direct main"
+    description:
+      name: http
+      sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.6.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -189,8 +197,10 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/my_simple_package"
-      relative: true
-    source: path
+      ref: main
+      resolved-ref: "659797a21a57cc6c07d32fe15223d0d30449abfa"
+      url: "https://github.com/RaulClauson/introducao-dart"
+    source: git
     version: "1.0.0"
   node_preamble:
     dependency: transitive

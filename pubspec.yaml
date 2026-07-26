@@ -10,8 +10,14 @@ environment:
 dependencies:
   path: ^1.9.0
   intl: ^0.19.0
+  # my_simple_package: 
+  #   path: ./packages/my_simple_package
   my_simple_package: 
-    path: ./packages/my_simple_package
+    git:
+      url: https://github.com/RaulClauson/introducao-dart
+      path: ./packages/my_simple_package
+      ref: main
+  http: ^1.6.0
 
 dev_dependencies:
   lints: ^6.0.0
