@@ -197,10 +197,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/my_simple_package"
-      ref: main
-      resolved-ref: "659797a21a57cc6c07d32fe15223d0d30449abfa"
-      url: "https://github.com/RaulClauson/introducao-dart"
-    source: git
+      relative: true
+    source: path
     version: "1.0.0"
   node_preamble:
     dependency: transitive
